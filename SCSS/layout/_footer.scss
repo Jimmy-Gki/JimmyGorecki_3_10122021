@@ -1,0 +1,65 @@
+footer {
+    background-color: $background-footer;
+    padding: 20px 20px 40px 20px;
+
+    h4 {
+        font-family: "Shrikhand", sans-serif;
+        font-size: $font-logo;
+        font-weight: normal;
+        color: whitesmoke;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        
+        @media screen and (min-width:768px) {
+            display: flex;
+            justify-content: center;
+            font-size: $font-logo-desktop;
+        }
+    }
+
+    .footer-contenu {
+
+        @media screen and (min-width:768px) {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin: auto;
+        }
+
+        @media screen and (min-width:1440px) {
+            width: 50%;
+            }
+    }
+}
+
+.footer-ul {
+    list-style: none;
+    padding-left: 0;
+    justify-content: left;
+    margin: 0px;
+    display: flex;
+
+    a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: whitesmoke;
+        margin-bottom: -20px;
+
+        p {
+            justify-content:start;
+            font-size: $font-little;
+
+            @media screen and (min-width:1024px) {
+                font-size: $font-little-desktop;
+                }
+        }
+
+        i {
+            padding-right: 15px;
+            font-size: 0.8em;
+            width: 13px;
+            font-size: $font-little;
+        }
+}
+}

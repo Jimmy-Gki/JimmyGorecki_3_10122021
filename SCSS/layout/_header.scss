@@ -1,0 +1,43 @@
+//logo
+
+.header-logo {
+    @include flex-center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+    img{
+        background-size: cover;
+        width: 200px;
+        height: 35px;
+        margin: auto;
+    }
+}
+
+//barre de recherche
+
+.localisation {
+    padding: 18px 0 18px 70px;
+    background-color: $background-recherche;
+    @include flex-center;
+    box-shadow: 0 4px 4px inset #c0c0c0;
+
+    .fa-map-marker-alt {
+        color: #505050;
+        padding-right: 15px;
+        font-size: $font-medium;
+        padding-bottom: 3px;
+    }
+}
+
+.search-text {
+    font-weight: 600;
+    font-size: $font-medium;
+    text-decoration: none;
+    border: none;
+    background-color: $background-recherche;
+    margin: auto;
+
+    &:focus {
+        outline: none;
+    }
+}

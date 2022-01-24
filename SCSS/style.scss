@@ -1,0 +1,21 @@
+// Import des fichiers scss
+
+@import './utils/_variables';
+@import './utils/_mixins';
+@import './pages/_accueil';
+@import './pages/_restaurants';
+@import './layout/_header';
+@import './layout/_footer';
+@import './components/_button';
+@import './components/loader';
+
+/*Style*/
+
+@import url('https://fonts.googleapis.com/css2? family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@font-face {
+font-family: "bootstrap-icons";
+src: url("./fonts/bootstrap-icons.woff2?45695e8b569b2b0178db2713ca47065c") format("woff2"),
+url("./fonts/bootstrap-icons.woff?45695e8b569b2b0178db2713ca47065c") format("woff")
+}
+

@@ -1,0 +1,11 @@
+{
+  "name": "p3_gorecki_jimmy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./SCSS/style.scss:./SCSS/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
