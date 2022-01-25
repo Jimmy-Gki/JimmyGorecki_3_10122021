@@ -80,8 +80,9 @@ body {
 
             &--hidden {
                 opacity: 0;
-                background: linear-gradient(170deg, $secondaire, $primaire);
+                background-image: linear-gradient(170deg, $secondaire, $primaire);
                 background-clip: text;
+                -webkit-background-clip: text;
                 color: transparent;
             }
         }
@@ -93,7 +94,7 @@ body {
 
             &> .restaurants-like__icon--hidden {
                 opacity: 1;
-                animation: 0.4s ease-in-out likeactive;
+                animation: 0.6s ease-in-out likeactive;
             }
         }
     }
